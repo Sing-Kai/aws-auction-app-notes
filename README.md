@@ -11,14 +11,16 @@
   - Simple Queue Service
   - S3 
 
-## Overview of Architecture 
+## Overview of AWS Architecture 
 
-### Sevices:
+### Microsevices:
 - Auction Service
 - Auth Service
 - Notification Service
 
 ### Auction Service
+
+Main service that handles all CRUD operations of Auctins. Consists of API Gateways, Lambda functions, connects to DynamoDB, Event Bridge and SQS 
 
 6 Lambda Functions in total.
 
@@ -75,9 +77,10 @@ using the jsonwebtoken library to verify a JSON Web Token (JWT) with a public ke
 
 ### Notification Service
 
-processAuction will sends to Simple Queue Service and this in turn calls a sendMail Lambda which passes email to Simple Email Service
+Auction Service Lambda `processAuction` will sends to Simple Queue Service and this in turn calls a sendMail Lambda which passes email to Simple Email Service
 
 sendMail Lambda set up, here sendMail event's come from mailQueue arn 
+
 ```
 functions:
   sendMail:
