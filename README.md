@@ -1,5 +1,7 @@
 # Auction Backend with Serverless Framework and AWS
 
+Implementation of a microservice backend of an auctioninng applicaiton.
+
 ### Technologies used:
 - Serverless Framework
 - Nodejs
