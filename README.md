@@ -2,6 +2,11 @@
 
 Implementation of a microservice backend of an auctioninng applicaiton.
 
+### Microsevices:
+- Auction Service [GitHub](https://github.com/Sing-Kai/auction-service)
+- Auth Service [GitHub](https://github.com/Sing-Kai/auth-service)
+- Notification Service [GitHub](https://github.com/Sing-Kai/notification-service)
+
 ### Technologies used:
 - Serverless Framework
 - Nodejs
@@ -16,11 +21,6 @@ Implementation of a microservice backend of an auctioninng applicaiton.
 ## Overview of AWS Architecture 
 
 ![image](https://user-images.githubusercontent.com/10774349/229365271-c0552e9c-cc62-43aa-a466-c54f1432cc55.png)
-
-### Microsevices:
-- Auction Service [GitHub](https://github.com/Sing-Kai/auction-service)
-- Auth Service [GitHub](https://github.com/Sing-Kai/auth-service)
-- Notification Service [GitHub](https://github.com/Sing-Kai/notification-service)
 
 ### Auction Service
 
