@@ -13,6 +13,8 @@
 
 ## Overview of AWS Architecture 
 
+![image](https://user-images.githubusercontent.com/10774349/229365271-c0552e9c-cc62-43aa-a466-c54f1432cc55.png)
+
 ### Microsevices:
 - Auction Service
 - Auth Service
@@ -115,8 +117,6 @@ closedAuction from Auction service calls SQS
 
 Execution role assigned for this lambda was set up manually by giving it specific SQS and SES. Custom IAM Role was created
 
-### High Level View of Services
 
-![image](https://user-images.githubusercontent.com/10774349/229365271-c0552e9c-cc62-43aa-a466-c54f1432cc55.png)
 
 
